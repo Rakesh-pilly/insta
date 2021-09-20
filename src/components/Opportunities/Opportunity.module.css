@@ -1,0 +1,100 @@
+
+.opp__jobs{
+    display: flex;
+    width:70%;
+    padding-inline:1rem;
+    margin: 10px auto;
+    border: 2px solid rgb(228, 228, 228);
+}
+.opp__jobs:hover{
+    border: 2px solid rgb(173, 173, 173);
+}
+.opp__logo{
+    width: 8vw;
+    margin: 0vh 2vw;
+}
+.opp__role{
+    color: #40454A;
+    font-size: 16px;
+    line-height: 16px;
+    background-color:  #FFFFFF
+}
+/* .opp__company{
+
+} */
+.opp__location{
+    color:#4A5056;
+    font-weight: bold;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-size: 1.2vw;
+}
+.opp__description{
+    font-family: "Gotham SSm A", "Gotham SSm B";
+background-color:  #FFFFFF;
+color:  #4A5056;
+font-size: 15px;
+line-height: 22.5px;
+font-weight: 500;
+text-align: justify;
+box-sizing: border-box;
+font-family: "Gotham SSm A", "Gotham SSm B"
+/* text-justify: inter-word; */
+}
+.opp__viewinterested{
+    margin-top: 23vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+
+/* view__opporrunities box css */
+.oppview__box{
+    /* border: 1px solid green; */
+    width: 98%;
+    text-align: justify;
+    height: 36vw;
+    padding: 2%;
+   
+}
+.oppview__box2{
+    display: flex;
+}
+.oppview__head{
+    color:  #4A5056;
+    font-size: 14.5px;
+    line-height: 22.5px;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-weight: 500;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.oppview__descriptions{
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-size: 15px;
+    border-bottom: 1px solid  #EDEDED;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-weight: bold;
+    color: #40454A;
+}
+.opp__ul{
+    
+    font-size: 12.5px;
+    color: #40454A;    
+}
+.opp__ul > li{
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-weight: 100;
+    line-height: 1.2vw;
+    margin-bottom: 1vw;    
+}
+.opp__productphotos{
+    margin-top: 4vh;
+    text-align: left;
+}
+.oppview__images{
+    display: flex;
+    margin: 3vh 2vh;
+    padding-left:1vh;
+    border-bottom: 1px solid  #EDEDED;
+}

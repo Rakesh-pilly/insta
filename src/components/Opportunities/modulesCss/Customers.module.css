@@ -1,0 +1,175 @@
+.custBody{
+    width: 190vh;
+  }
+  /* video  */
+  .custvideo{
+    margin: 0vh 3vh;
+    /* width: 50vh; */
+    /* object-fit: contain; */
+    
+  }
+  /* header logo */
+  .CustomerslogoBack{
+    margin: 10vh 0vw;
+    width: 97vw;
+    background-color: lightgrey;
+  
+  }
+  
+  /* header  inside logo*/
+  .cusHeader {
+    position: relative;
+    width: 67vw;
+    height: 21vw;
+    /* border: 1px solid green; */
+    padding: 1vh;
+    margin: 0 14vw;
+  }
+  .cusReadyHire {
+    color: aliceblue;
+    background-color: #414654;
+    text-align: center;
+    padding: 5vw;
+    margin: 10vh 0vw;
+    width: 89vw;
+    font-size: 22px;
+  }
+  
+  .cusSignupNow {
+    background-color: #51C0A1;
+    color: red;
+    width: 22vw;
+    height: 8vh;
+    font-size: 14px;
+    padding: 14px 0 14px;
+    border-radius: 1vh;
+  }
+  .cusSignupLink {
+    color: wheat;
+    text-decoration: none;
+    letter-spacing: 0.3vh;
+  }
+  .cusSignupLink :hover {
+    background-color: red;
+  }
+  .readyTag {
+    letter-spacing: 0.4vh;
+    color: #ffff;
+  }
+  /* end of signup */
+  
+  /* stydt */
+  .custViewStudy{
+    color:#40454A;
+    background-color: #FFFFFF;
+    letter-spacing: 0.5em;
+    line-height:33px;
+    font-weight: bold;
+    text-align: center;
+  }
+  /* images hover  */
+  .custImgBlock{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 120vh;
+    margin:3vw 17vw;
+    border: 1px solid red;
+  }
+  .custImgItem{
+     position:relative;
+      width:40vh;
+      height:40vh;
+      /* border: 1px solid green; */
+  }
+  .custImgUrl{
+   
+    display: block;
+    width: 39vh;
+    height: auto;
+    margin: 0px 0vh;
+  }
+  .custImgUrl:hover{
+    position: absolute;
+    opacity: 0.5;
+  }
+  .custImgUrl + .custImgUrlBtn{
+    position: absolute;
+    top: 0;
+    bottom: 30vh;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    transition: .5s ease;
+    background-color: grey;
+  }
+  .custImgItem:hover .custImgUrlBtn {
+    opacity: 0.7;
+    height: 39vh;
+    width: 39vh;
+  }
+  
+  
+  .custImgUrlBtn > button {
+    margin: 27vh 9vh;
+    background-color: black;
+    width: 20vh;
+    color: white;
+    border-radius: 1vh;
+    /* opacity: 4.5; */
+    font-size:  12.5px;
+    text-align: center;
+    padding:6px 12px 6px 12px
+  }
+  .custImgUrlBtn > button:hover {
+    background-color: #02BFA0;
+    transition: all 0.5s ease 0s;
+    outline: none;
+  }
+  /* end hover imagews */
+  
+  
+  /* footer */
+  .custfooterbody{
+    /* margin: -5vw 1vw; */
+    /* background-color: black; */
+    position: sticky;
+    top:300px;
+    width:104vw;
+    display: flex;
+    margin: -5vw;
+    border-top: 1px solid brown;
+  }
+  .custfooter{
+    display: flex;
+    width: 732vw;
+    justify-content: space-between;
+    margin: 1vw 14vw;
+    /* border: 1px solid crimson; */
+    height: 10vw;
+    /* background-color: black; */
+    align-items: center;
+  }
+  .custfooterdisplay{
+    color: #4A5056;
+    text-align: center;
+    margin:4vw 1vw;
+  }
+  
+  .custfooterdisplay > ul > li{
+    list-style: none;
+    line-height: 22.5px;
+    font-size: 12px;
+    color: #8A8A8A;
+  }
+  .footerP{
+    color: #555555;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  
